@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+    	<link rel = "stylesheet" href = "/css/bootstrap.min.css"/>
+        <title>Course not found</title>
+    </head>
+    <body>
+    	<div th:replace="fragments/fragment :: header"></div>
+    	<h1>Course not found</h1>
+    	<h3 th:text="'Id course = ' + ${id_course}"></h3>
+    	<div th:replace="fragments/fragment :: footer"></div>
+    </body>
+</html>
